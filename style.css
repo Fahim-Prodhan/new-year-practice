@@ -134,3 +134,41 @@ body {
   font-weight: 500;
   margin-bottom: 130px;
 }
+
+#banner {
+  margin: 0px 230px;
+}
+
+.banner-img {
+  background-image: url(images/watch.png);
+  border-radius: 8px;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-bottom: 130px;
+}
+.banner-img img {
+  height: 300px;
+}
+.banner-title {
+  position: absolute;
+  top: 0px;
+  bottom: 150px;
+  left: 65px;
+  right: 620px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.btn-banner {
+  position: relative;
+  left: 65px;
+  bottom: 140px;
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  padding: 20px 35px;
+}
