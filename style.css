@@ -135,6 +135,8 @@ body {
   margin-bottom: 130px;
 }
 
+/* Banner CSS */
+
 #banner {
   margin: 0px 230px;
 }
@@ -171,4 +173,62 @@ body {
   font-weight: 600;
   border: none;
   padding: 20px 35px;
+}
+
+/* footer css */
+#footer {
+  margin: 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background: #151414;
+  padding: 130px 230px;
+}
+.right-footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.right-footer-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 485px;
+  margin-top: 0;
+}
+
+.footer-icon img {
+  margin-right: 10px;
+}
+
+.left-footer-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.left-footer > input {
+  width: 325px;
+  height: 64px;
+  background-color: #151414;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  color:  #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-footer {
+  display: block;
+  border-radius: 8px;
+  padding: 20px 36px;
+  margin-top: 16px;
+  background: #fff;
+  color: #f15b22;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
